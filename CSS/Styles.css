@@ -1,0 +1,56 @@
+body{
+    background-color: #4a4e69;
+}
+dl{
+	text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+
+}
+
+.mainpic{
+    border-radius: 8px;
+    border: 1px solid purple;
+    width: 500px;
+    margin-left: 35%;
+}
+
+.hcolor{
+    color: #9a8c98;
+}
+
+.img_gallary{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: row;
+	max-height: 200px;
+	gap: 10px;
+	padding: 10px;
+	justify-content: center;
+}
+.img_gallary img{
+	margin: 10px;
+	border: 3px solid purple;
+	max-width: 23vw;
+}
+
+.pretty{
+    color: #f2e9e4;
+}
+
+.secondarypic{
+    border-radius: 8px;
+    border: 1px solid purple;
+    width: 300px;
+    margin-left: 35%;
+}
+
+#indigo{
+    background-color: #bee9e8;
+    color: #1b4965;
+}
