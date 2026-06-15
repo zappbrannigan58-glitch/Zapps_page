@@ -18,6 +18,167 @@ h2{
 	flex-direction: row;
 	max-height: 10px;
 	color: #fbfbfb;
+	padding-bottom: 25px;
+}
+
+.banner div {
+	padding-right: 2%;
+}
+
+.banner h1{
+	margin-left: 50%;
+}
+
+.bgimage {
+	background-image: url(../Pictures/bgimage.jpg);
+	height: 100vh;
+	background-position: center;
+}
+
+.blognav{
+	margin-left: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.hcolor{
+    color: #9a8c98;
+}
+
+.img_gallary{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: row;
+	gap: 10px;
+	padding: 10px;
+	justify-content: center;
+}
+.img_gallary img{
+	margin: 10px;
+	border: 3px solid purple;
+	max-width: 23vw;
+}
+
+.insidet{
+	margin-left: 3%;
+	margin-bottom: 10%;
+}
+
+.intro {
+	margin-top: 20%;
+	color: #fbfbfb;
+}
+
+.mainpic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius: 8px;
+    border: 1px solid purple;
+    width: 500px;
+}
+
+.me{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+    border: 1px solid purple;
+    width: 300px;
+}
+
+.navigationbutton {
+	display: flex;
+	flex-direction: row;
+}
+
+.navbuttons{
+	display: flex;
+	flex-direction: row;
+}
+
+.nextb{
+	background-color: #001d3d;
+	color: #f2e9e4;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 1%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.pretty{
+    color: #f2e9e4;
+}
+
+.racet {
+	border: 1px solid purple;
+	border-collapse: collapse;
+	padding: 3px;
+	background-color: #240046;
+	color: #72efdd;
+}
+
+.secondarypic{
+    border-radius: 8px;
+    border: 1px solid purple;
+    width: 300px;
+    margin-left: 35%;
+}
+
+.tableinsert {
+	margin-left: 45%;
+}
+
+.title {
+	background-color: white;
+	color: black;
+}
+
+.titles {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-height: 10px;
+	margin-left: 40%;
+	margin-bottom: 10%;
+}
+
+#indigo{
+    background-color: #bee9e8;
+    color: #1b4965;
+}
+
+#name {
+	padding-right: 70%;
+	margin-bottom: 3%;
+}body{
+    background-color: #4a4e69;
+}
+dl{
+	text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+
+}
+
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-height: 10px;
+	color: #fbfbfb;
 }
 
 .banner div {
