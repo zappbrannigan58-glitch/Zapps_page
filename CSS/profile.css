@@ -1,0 +1,67 @@
+body {
+	background-color: #4a4e69;
+}
+
+html,body { 
+	height:100%; 
+}
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-height: 10px;
+	color: #fbfbfb;
+	padding-bottom: 25px;
+}
+
+.banner div {
+	padding-right: 2%;
+}
+
+.banner h1{
+	margin-left: 50%;
+}
+
+.description {
+	margin-left: 1%;
+}
+
+.leftinfo {
+	padding-left: 2%;
+	width: 20%;
+	background-color: #219ebc;
+	color: #ffffff;
+	padding: 3%;
+	min-height: 100vh;
+}
+
+.maincontainer {
+	color: #9a8c98;
+	display: flex;
+	flex-direction: row;
+}
+
+.profilepic{
+	max-height: 10vh;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.rightinfo{
+	background-color: #ffffff;
+	color: #219ebc;
+	margin: 0;
+	padding-left: 1%;
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 9%;
+}
+
+#name {
+	padding-right: 70%;
+	margin-bottom: 3%;
+}
+
+#gyear{
+	padding-left: 40%;
+}
