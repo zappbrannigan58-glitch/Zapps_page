@@ -12,6 +12,10 @@ h2{
 
 }
 
+.article1{
+	display: flex;
+}
+
 .banner {
 	display: flex;
 	flex-wrap: wrap;
@@ -43,6 +47,15 @@ h2{
 	flex-direction: row;
 }
 
+.descriptors {
+    width: 40vh;
+    margin: 0 2% 2% 0;
+}
+
+.discriptors img{
+	margin-bottom: 2%;
+}
+
 .hcolor{
     color: #9a8c98;
 }
@@ -70,6 +83,15 @@ h2{
 .intro {
 	margin-top: 20%;
 	color: #fbfbfb;
+}
+
+.left{
+	margin: 1% 2% 1% 1%;
+}
+
+.left img {
+	border-radius: 2%;
+	border: solid 2px black;
 }
 
 .mainpic{
@@ -126,11 +148,35 @@ h2{
 	color: #72efdd;
 }
 
+.right {
+	margin: 1% 1% 1% 2%;
+}
+
+.right img{
+	border-radius: 2%;
+	border: solid 2px black;
+}
+
 .secondarypic{
     border-radius: 8px;
     border: 1px solid purple;
     width: 300px;
     margin-left: 35%;
+}
+
+.supportingpic{
+    width: 40vh;
+    margin: 1% 2% 1% 1%;
+}
+
+.supportingpic2{
+	width: 40vh;
+	float: left;
+}
+
+.supportingpic2 img{
+	border-radius: 2%;
+	border: solid 2px black;
 }
 
 .tableinsert {
@@ -147,7 +193,7 @@ h2{
 	flex-wrap: wrap;
 	flex-direction: row;
 	max-height: 10px;
-	margin-left: 46%;
+	margin-left: 40%;
 	margin-bottom: 10%;
 }
 
@@ -156,7 +202,18 @@ h2{
     color: #1b4965;
 }
 
+#lychee{
+	margin-top: 3%;
+}
+
 #name {
 	padding-right: 70%;
 	margin-bottom: 3%;
+}
+
+@media (max-width: 1500px){
+	.article1{
+	display: flex;
+	flex-direction: column;
+	}	
 }
