@@ -1,5 +1,27 @@
-body{
-    background-color: #4a4e69;
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-color: #131313;
+}
+
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(65,90,119,.5);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(27,38,59,1);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 dl{
 	text-decoration: underline;
@@ -35,8 +57,9 @@ h2{
 
 .bgimage {
 	background-image: url(../Pictures/bgimage.jpg);
-	height: 100vh;
-	background-position: center;
+	height: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
 }
 
 .blognav{
@@ -94,6 +117,11 @@ h2{
 	border: solid 2px black;
 }
 
+.logo {
+	width: 20vh;
+	cursor: pointer;
+}
+
 .mainpic{
 	display: block;
 	margin-left: auto;
@@ -112,7 +140,30 @@ h2{
     width: 300px;
 }
 
-.navigationbutton {
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: #0088A9;
+}
+
+.nav_links li, a, button {
+	font-family: "Michroma";
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+/* .navigationbutton {
 	display: flex;
 	flex-direction: row;
 }
@@ -120,7 +171,7 @@ h2{
 .navbuttons{
 	display: flex;
 	flex-direction: row;
-}
+} */
 
 .nextb{
 	background-color: #001d3d;
@@ -211,9 +262,10 @@ h2{
 	margin-bottom: 3%;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 900px){
 	.article1{
 	display: flex;
 	flex-direction: column;
 	}	
 }
+
