@@ -163,7 +163,7 @@ h2{
 	text-decoration: none;
 }
 
-/* .navigationbutton {
+.navigationbutton {
 	display: flex;
 	flex-direction: row;
 }
@@ -171,7 +171,7 @@ h2{
 .navbuttons{
 	display: flex;
 	flex-direction: row;
-} */
+} 
 
 .nextb{
 	background-color: #001d3d;
